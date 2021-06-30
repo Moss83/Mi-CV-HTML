@@ -5,6 +5,74 @@
 	<title>Formulario de Contacto</title>
 </head>
 <body>
+	
+	<header>
+		<h1>Contacto</h1>
+		<br>
+		<h3>Complete sus datos y lo contactaremos a la brevedad</h3>
+	</header>
+
+	<main>
+		<form action="" method="">
+			<p>
+				<label for="nombre">Nombre: </label>
+				<input type="text" name="nombre" placeholder="Introducir Nombre" required="true" />
+			</p>
+			<p>
+				<label for="apellido">Apellido: </label>
+				<input type="text" name="apellido" placeholder="Introducir Apellido" required="true" />
+			</p>
+			<p>
+				<label for="sexo">Sexo: </label>
+				<select name="sexo">
+					<option value="Hombre">Hombre</option>
+					<option value="Mujer">Mujer</option>
+					<option value="Otro">Otro</option>
+					<option value="NoDecir">Prefiero no decirlo</option>
+				</select>
+			</p>
+			<p>
+				<label for="zona">Zona: </label>
+				<ul>
+						<li>
+							<input type="radio" name="zona" value="caba" />
+							<label>CABA</label>
+						</li>
+						<li>
+							<input type="radio" name="zona" value="conurbano">
+							<label>Gran Buenos Aires</label>
+						</li>
+						<li>
+							<input type="radio" name="zona" value="resto">
+							<label>Interior de Argentina</label>
+						</li>
+				</ul>
+
+			</p>
+			<p>
+				<label for="correo">Correo e-mail: </label>
+				<input type="text" name="email" placeholder="Introducir e-mail" required="true" />
+			</p>
+			<p>
+				<label for="asunto">Asunto: </label>
+				<input type="text" name="asunto" placeholder="Introducir Asunto" />
+			</p>
+			<p>
+				<label for="comentarios">Comentarios: </label>
+				<textarea name="comentarios"></textarea>
+			</p>
+			<p>
+				<input type="submit" value="Enviar" />
+				<input type="reset" value="Borrar" />
+			</p>
+		</form>
+	</main>
+
+	<footer>
+		<br>
+		<p><a href="miCv.html" target="_blank">Volver al CV</a></p>
+		<p>Copyright Mauricio Mosquera 2021</p>
+	</footer>
 
 </body>
 </html>
