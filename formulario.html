@@ -3,28 +3,29 @@
 <head>
 	<meta charset="utf-8">
 	<title>Formulario de Contacto</title>
+	<link rel="stylesheet" type="text/css" href="misEstilos.css">
 </head>
 <body>
 	
 	<header>
 		<h1>Contacto</h1>
 		<br>
-		<h3>Complete sus datos y lo contactaremos a la brevedad</h3>
+		<h3 id="subtitulo">Complete sus datos y lo contactaremos a la brevedad</h3>
 	</header>
 
 	<main>
 		<form action="" method="">
-			<p>
+			<p class="contenidos">
 				<label for="nombre">Nombre: </label>
-				<input type="text" name="nombre" placeholder="Introducir Nombre" required="true" />
+				<input class="soyTexto" type="text" name="nombre" placeholder="Introducir Nombre" required="true" />
 			</p>
-			<p>
+			<p class="contenidos">
 				<label for="apellido">Apellido: </label>
-				<input type="text" name="apellido" placeholder="Introducir Apellido" required="true" />
+				<input class="soyTexto" type="text" name="apellido" placeholder="Introducir Apellido" required="true" />
 			</p>
-			<p>
+			<p class="contenidos">
 				<label for="sexo">Sexo: </label>
-				<select name="sexo">
+				<select class="soyTexto" name="sexo">
 					<option value="Hombre">Hombre</option>
 					<option value="Mujer">Mujer</option>
 					<option value="Otro">Otro</option>
@@ -49,28 +50,28 @@
 				</ul>
 
 			</div>
-			<p>
-				<label for="correo">Correo e-mail: </label>
-				<input type="text" name="email" placeholder="Introducir e-mail" required="true" />
+			<p class="contenidos">
+				<label for="correo">E-mail: </label>
+				<input class="soyTexto" type="text" name="email" placeholder="Introducir e-mail" required="true" />
 			</p>
-			<p>
+			<p class="contenidos">
 				<label for="asunto">Asunto: </label>
-				<input type="text" name="asunto" placeholder="Introducir Asunto" />
+				<input class="soyTexto" type="text" name="asunto" placeholder="Introducir Asunto" />
 			</p>
-			<p>
+			<p class="contenidos">
 				<label for="comentarios">Comentarios: </label>
-				<textarea name="comentarios"></textarea>
+				<textarea class="soyTexto" name="comentarios"></textarea>
 			</p>
-			<p>
-				<input type="submit" value="Enviar" />
-				<input type="reset" value="Borrar" />
+			<p class="contenidos">
+				<input class="boton" type="submit" value="Enviar" />
+				<input class="boton" type="reset" value="Borrar" />
 			</p>
 		</form>
 	</main>
 
 	<footer>
 		<br>
-		<p><a href="miCv.html" target="_blank">Volver al CV</a></p>
+		<b><a href="miCv.html" target="_blank">Volver al CV</a></b>
 		<p>Copyright Mauricio Mosquera 2021</p>
 	</footer>
 

@@ -30,6 +30,28 @@ footer{
 	font-size: 14px;
 }
 
+#subtitulo{
+	color: white;
+	text-align: center;
+	font-family: "Verdana", "Helvetica", "sans-serif";
+}
+
+.contenidos{
+	color: white;
+	margin-left: 30px;
+	margin-top: 40px;
+	font-family: "Verdana", "Helvetica", "sans-serif";
+}
+
+.soyTexto{
+	position: absolute;
+	left: 150px;
+}
+
+.boton{
+	margin-left: 58px;
+}
+
 
 
 
